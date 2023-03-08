@@ -1,3 +1,16 @@
+# Note: 
+
+This was forked to add a minor fix. This package is old and unmaintained.
+
+The fork adds a Url prop for the URL field of the ics file.
+
+This fork was built on node 14
+
+Ruby is required to build this. Also the `sass` gem is to be installed. (https://mac.install.guide/ruby/13.html)
+
+The `scsslint` and `webpack:docs` tasks have been disabled.
+
+
 # React Add to Calendar Button
 
 [![npm version](https://badge.fury.io/js/react-add-to-calendar.svg)](https://badge.fury.io/js/react-add-to-calendar)

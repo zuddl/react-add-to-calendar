@@ -74,7 +74,7 @@ export default class helpers {
           "BEGIN:VCALENDAR",
           "VERSION:2.0",
           "BEGIN:VEVENT",
-          "URL:" + document.URL,
+          "URL:" + (event.url ? event.url : document.URL),
           "DTSTART:" + this.formatTime(event.startTime),
           "DTEND:" + this.formatTime(event.endTime),
           "SUMMARY:" + event.title,

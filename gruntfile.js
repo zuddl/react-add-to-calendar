@@ -107,7 +107,7 @@ module.exports = function (grunt) {
           })
         ]
       }),
-      docs: require('./webpack.docs.config')
+      //docs: require('./webpack.docs.config')
     },
 
     // source build for ./lib
@@ -134,5 +134,5 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', ['watch', 'scsslint'])
   grunt.registerTask('travis', ['eslint', 'karma', 'scsslint'])
-  grunt.registerTask('build', ['scsslint', 'babel', 'webpack', 'sass'])
+  grunt.registerTask('build', ['babel', 'webpack', 'sass'])
 }
